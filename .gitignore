@@ -1,0 +1,64 @@
+.idea/
+# Default ignored files
+/workspace.xml
+
+#backend
+main/backend/HELP.md
+main/backend/target/
+main/backend/!.mvn/wrapper/maven-wrapper.jar
+main/backend/!**/src/main/**/target/
+main/backend/!**/src/test/**/target/
+
+### STS ###
+main/backend/.apt_generated
+main/backend/.classpath
+main/backend/.factorypath
+main/backend/.project
+main/backend/.settings
+main/backend/.springBeans
+main/backend/.sts4-cache
+
+### IntelliJ IDEA ###
+main/backend/.idea
+main/backend/*.iws
+main/backend/*.iml
+main/backend/*.ipr
+main/backend/.gitignore
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+main/backend/.vscode/
+
+#front end
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+main/frontend/node_modules
+main/frontend/.pnp
+main/frontend/.pnp.js
+main/frontend/.gitignore
+# testing
+main/frontend/coverage
+
+# production
+main/frontend/build
+
+# misc
+main/frontend/.DS_Store
+main/frontend/.env.local
+main/frontend/.env.development.local
+main/frontend/.env.test.local
+main/frontend/.env.production.local
+
+main/frontend/npm-debug.log*
+main/frontend/yarn-debug.log*
+main/frontend/yarn-error.log*
